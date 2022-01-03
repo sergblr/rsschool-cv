@@ -1,3 +1,102 @@
 body {
-    
+    background: rgb(0, 0, 0);
+  }
+  .box {
+    display: flex;
+    height: 160px;
+    flex-direction: column;
+    padding:40px 50px 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em
+
+  }
+  .box img:hover {
+    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+    transform: scale(1.1);
 }
+.box img {
+    transition: all 0.5s ease;
+}
+  .page {
+    width: 40em;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+    text-align: justify;
+    padding: 10px 50px;
+    color: rgb(255, 255, 255);
+    border: 0px solid #333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+  }
+  .name {
+    text-align: left;
+    background-color: #46f72f; 
+    font: normal bold 30px Verdana, sans-serif;
+    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+  }
+  .heading {
+    text-align: left;
+    font: normal bold 20px Verdana, sans-serif;
+    color: #46f72f;
+  }
+  .verdana-text {
+    font-family: Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font: normal bold 20px Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+    .item {
+    width: 500px;
+    height: 120px;
+    margin: 20px;
+    font: normal bold  50px Verdana, sans-serif;
+    text-decoration: underline;
+    
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 12px Verdana, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    list-style: none;
+    
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+  html {
+    scroll-behavior: smooth; 
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-decoration: none;
+  
+  }
+  .nav-link:hover {
+    color: #46f72f;
+  }
+    .projects {
+    font-family: Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+      }
+  .projects:hover {
+    color: #46f72f;
+    text-decoration: none;
+  }
